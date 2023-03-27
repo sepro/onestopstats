@@ -74,7 +74,7 @@ const config = {
             position: 'left',
             label: 'Methods',
           },
-          {to: '/news', label: 'News', position: 'left'},
+          {to: '/blog', label: 'News', position: 'left'},
           {
             href: 'https://github.com/sepro/onestopstats/',
             label: 'GitHub',
