@@ -1,39 +1,33 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import BlogPostItem from "@theme/BlogPostItem";
-import { Content } from "@theme/BlogPostPage";
-import { BlogPostProvider } from "@docusaurus/theme-common/internal";
+
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Clear and concise definitions',
+    Svg: "img/bird_1.png",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+         All statistical terms are defined in an easily understandable way.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Practical examples',
+    Svg: "img/bird_2.png",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Each statistical concept is accompanied by an example to help students understand it better.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Free and accessible',
+    Svg: "img/bird_3.png",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The site is available for free, making it accessible to all students who need it.
       </>
     ),
   },
@@ -43,7 +37,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Svg} className={styles.featureImg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -54,21 +48,12 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
-  const {siteConfig} = useDocusaurusContext();
-  const latestBlogPosts = siteConfig.customFields.latestBlogPosts || [];
-
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {latestBlogPosts.slice(0, 3).map((post, idx) => (
-            <Feature
-              key={idx}
-              title={post.title}
-              imageUrl={post.metadata.image}
-              description={post.description}
-              link={post.permalink}
-            />
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
           ))}
         </div>
       </div>
