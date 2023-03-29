@@ -6,7 +6,6 @@ sidebar_position: 3
 
 PCA, or Principal Component Analysis, is a statistical technique used to reduce the dimensionality of a dataset with many variables, while retaining as much of the original variation in the data as possible. 
 
-To explain PCA, let's take the example of a dataset with many variables, such as height, weight, age, income, education level, etc. PCA can help us identify which variables are most important in explaining the variation in the data, and reduce the number of variables to a smaller set of "principal components" that capture most of the variation.
 
 ## Use Cases
 

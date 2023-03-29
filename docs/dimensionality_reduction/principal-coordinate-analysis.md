@@ -6,7 +6,6 @@ sidebar_position: 3
 
 Principle Coordinate Analysis (PCoA) is a multivariate statistical technique used to visualize and analyze similarities or dissimilarities between samples or groups of samples. It is a method of dimensionality reduction that takes a distance matrix as input and produces a set of new variables, called principal coordinates, that capture the maximum amount of variation in the data.  PCoA tries to preserve the distances between samples in higher dimensions when reducing the dimensionality of the data. It does this by projecting the data onto a lower-dimensional space while preserving as much of the original distance information as possible.
 
-PCoA is often used in ecology, genetics, and other fields to analyze and visualize the relationships between different samples or groups of samples based on their characteristics or attributes. It can be used to identify patterns or clusters in the data, and to test hypotheses about the factors that influence these patterns.
 
 ## Use Cases
 
