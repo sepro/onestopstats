@@ -1,0 +1,8 @@
+{
+  "label": "Multiple Hypothesis Correcton",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Various options to correct for multiple hypothesis testing"
+  }
+}
