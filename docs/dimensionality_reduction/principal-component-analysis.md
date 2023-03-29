@@ -18,8 +18,6 @@ PCA makes several assumptions about the data, including:
   * Linearity: PCA assumes that the relationships between variables are linear. If the relationships are non-linear, PCA may not work well.
 
   * Normality: PCA assumes that the variables in the dataset are normally distributed. If the variables are not normally distributed, PCA may not be appropriate.
-
-  * Independence: PCA assumes that the variables in the dataset are independent of each other. If there are strong correlations between variables, the results of PCA may be biased.
   
 ## Potential Issues
 
