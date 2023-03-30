@@ -1,0 +1,8 @@
+{
+  "label": "Distance and differences",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Distance and other metrics to quantify the difference between groups"
+  }
+}

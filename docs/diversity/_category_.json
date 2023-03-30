@@ -1,0 +1,8 @@
+{
+  "label": "Diversity",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Various metrics to determine the diversity"
+  }
+}
