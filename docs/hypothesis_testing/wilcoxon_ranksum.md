@@ -13,13 +13,13 @@ The Wilcoxon Rank Sum Test can be used to compare the effectiveness of two diffe
   
 ## Assumptions
 
-  * Independence: The observations in each group must be independent of each other. This means that the value of one observation should not be influenced by the value of another observation.
+  * **Independence**: The observations in each group must be independent of each other. This means that the value of one observation should not be influenced by the value of another observation.
 
-  * Random Sampling: The observations in each group must be randomly sampled from their respective populations.
+  * **Random Sampling**: The observations in each group must be randomly sampled from their respective populations.
 
-  * Homogeneity of Variance: The variance of the data in each group should be roughly equal. This assumption is less important than the independence assumption, and violations of this assumption can often be tolerated.
+  * **Homogeneity of Variance**: The variance of the data in each group should be roughly equal. This assumption is less important than the independence assumption, and violations of this assumption can often be tolerated.
 
-  * Ordinal Data: The Wilcoxon Rank Sum Test assumes that the data is at least ordinal, meaning that it can be ranked from lowest to highest.
+  * **Ordinal Data**: The Wilcoxon Rank Sum Test assumes that the data is at least ordinal, meaning that it can be ranked from lowest to highest.
 
 ## Conclusion
 

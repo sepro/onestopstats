@@ -11,11 +11,11 @@ Principle Coordinate Analysis (PCoA) is a multivariate statistical technique use
 
 PCoA can use a variety of distance metrics to quantify the similarities or dissimilarities between samples or groups of samples. Here are some examples of commonly used distance metrics:
 
-1. **Euclidean distance:** This is the most commonly used distance metric in PCoA. It measures the straight-line distance between two points in a multidimensional space. For example, if we have two samples with three attributes each (x, y, and z), the Euclidean distance between them can be calculated as: 
+1. **[Euclidean distance](../distance/euclidean.md):** This is the most commonly used distance metric in PCoA. It measures the straight-line distance between two points in a multidimensional space. For example, if we have two samples with three attributes each (x, y, and z), the Euclidean distance between them can be calculated as: 
 
    `distance = sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)`
 
-2. **Bray-Curtis dissimilarity:** This distance metric is commonly used in ecology to measure the dissimilarity between two samples based on their species composition. It calculates the absolute differences between the proportions of each species in the two samples, and then sums these differences. For example, if we have two samples with four species each, the Bray-Curtis dissimilarity between them can be calculated as:
+2. **[Bray-Curtis dissimilarity](../distance/bray_curtis.md):** This distance metric is commonly used in ecology to measure the dissimilarity between two samples based on their species composition. It calculates the absolute differences between the proportions of each species in the two samples, and then sums these differences. For example, if we have two samples with four species each, the Bray-Curtis dissimilarity between them can be calculated as:
 
    `dissimilarity = (|a1 - a2| + |b1 - b2| + |c1 - c2| + |d1 - d2|) / (a1 + a2 + b1 + b2 + c1 + c2 + d1 + d2)`
 

@@ -15,23 +15,23 @@ Let's say we have a dataset of customer purchases at a grocery store, with varia
 
 PCA makes several assumptions about the data, including:
 
-  * Linearity: PCA assumes that the relationships between variables are linear. If the relationships are non-linear, PCA may not work well.
+  * **Linearity**: PCA assumes that the relationships between variables are linear. If the relationships are non-linear, PCA may not work well.
 
-  * Normality: PCA assumes that the variables in the dataset are normally distributed. If the variables are not normally distributed, PCA may not be appropriate.
+  * **Normality**: PCA assumes that the variables in the dataset are normally distributed. If the variables are not normally distributed, PCA may not be appropriate.
   
 ## Potential Issues
 
 When using PCA, it's important to be aware of these assumptions and check whether they are violated in the data. Additionally, there are some practical considerations to keep in mind:
 
-  * Scaling: PCA is sensitive to the scaling of the variables. It's important to standardize the variables before running PCA to ensure that each variable has equal weight.
+  * **Scaling**: PCA is sensitive to the scaling of the variables. It's important to standardize the variables before running PCA to ensure that each variable has equal weight.
 
-  * Number of components: PCA can produce as many principal components as there are variables in the dataset, but it's important to consider how many components are needed to capture most of the variation in the data. Choosing too few components may lead to loss of important information, while choosing too many components may result in overfitting.
+  * **Number of components**: PCA can produce as many principal components as there are variables in the dataset, but it's important to consider how many components are needed to capture most of the variation in the data. Choosing too few components may lead to loss of important information, while choosing too many components may result in overfitting.
 
-  * Interpretation: While PCA can help identify patterns and relationships in the data, it can be difficult to interpret the meaning of the principal components. It's important to carefully examine the loadings of each component to understand which variables are most strongly associated with each component.
+  * **Interpretation**: While PCA can help identify patterns and relationships in the data, it can be difficult to interpret the meaning of the principal components. It's important to carefully examine the loadings of each component to understand which variables are most strongly associated with each component.
   
-  * Outliers: PCA can be sensitive to outliers in the data. It's important to examine the data for outliers and consider whether they should be removed or handled in some other way.
+  * **Outliers**: PCA can be sensitive to outliers in the data. It's important to examine the data for outliers and consider whether they should be removed or handled in some other way.
 
-  * Data quality: PCA assumes that the data is of good quality and free of errors. It's important to carefully clean and prepare the data before running PCA to ensure accurate results.
+  * **Data quality**: PCA assumes that the data is of good quality and free of errors. It's important to carefully clean and prepare the data before running PCA to ensure accurate results.
   
 ## Conclusion
 

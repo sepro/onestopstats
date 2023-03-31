@@ -18,7 +18,7 @@ Researchers have used measures of evenness to study how coral reef communities r
 
 ## Notes
 
-Shannon Diversity Index and Pielou's Evenness Index are two measures used to quantify biodiversity in a community. 
+[Shannon Diversity Index](./shannon_diversity_index.md) and Pielou's Evenness Index are two measures used to quantify biodiversity in a community. 
 
 The Shannon Diversity Index takes into account both the number of different species present (species richness) and the abundance of each species (species evenness). It provides a more comprehensive measure of diversity, as it considers both the number of species and their relative abundances. Pielou's Evenness Index, on the other hand, focuses solely on species evenness or how evenly individuals are distributed among different species within a community. 
 
