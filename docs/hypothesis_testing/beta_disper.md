@@ -19,6 +19,7 @@ Suppose we have collected data on the abundance of three different species (A, B
 | 3    |   8       |   6       |   9       |
 | 4    | 12        | 19        | -         |
 | 5    | -         | -         | -         |
+| ...  | ...       | ...       | ...       |
 
 We want to test whether there are significant differences in the dispersion of these species across the five sites. We can use the beta disper test to do this.
 
