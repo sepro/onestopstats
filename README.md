@@ -1,5 +1,7 @@
 [![Deploy to GitHub Pages](https://github.com/sepro/onestopstats/actions/workflows/deploy.yml/badge.svg)](https://github.com/sepro/onestopstats/actions/workflows/deploy.yml)
 
+*NOTE:* This was an interesting test of docusaurus, but I don't have the time to properly maintain the website. Will leave it up as a public archive in case anyone does want to pick it up.
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
